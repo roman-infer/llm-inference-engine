@@ -1,0 +1,17 @@
+{
+  "heads": 12,
+  "kv_heads": 12,
+  "head_dim": 64,
+  "rows": [
+    {"seq": 1, "kv": 128, "ms_3pass": 0.0358, "ms_online": 0.0389, "scratch_mb": 0.003},
+    {"seq": 1, "kv": 512, "ms_3pass": 0.1096, "ms_online": 0.1472, "scratch_mb": 0.012},
+    {"seq": 1, "kv": 1024, "ms_3pass": 0.2158, "ms_online": 0.2877, "scratch_mb": 0.025},
+    {"seq": 1, "kv": 2048, "ms_3pass": 0.4096, "ms_online": 0.5652, "scratch_mb": 0.049},
+    {"seq": 1, "kv": 4096, "ms_3pass": 0.8048, "ms_online": 1.1192, "scratch_mb": 0.098},
+    {"seq": 128, "kv": 128, "ms_3pass": 0.1454, "ms_online": 0.0603, "scratch_mb": 0.393},
+    {"seq": 128, "kv": 512, "ms_3pass": 0.5161, "ms_online": 0.3697, "scratch_mb": 1.573},
+    {"seq": 128, "kv": 1024, "ms_3pass": 1.0064, "ms_online": 0.7731, "scratch_mb": 3.146},
+    {"seq": 128, "kv": 2048, "ms_3pass": 2.0059, "ms_online": 1.5985, "scratch_mb": 6.291},
+    {"seq": 128, "kv": 4096, "ms_3pass": 6.1696, "ms_online": 3.1642, "scratch_mb": 12.583}
+  ]
+}

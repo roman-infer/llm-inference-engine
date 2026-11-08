@@ -1,0 +1,13 @@
+{
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "capability": "8.9",
+  "cuda": "13.4",
+  "shapes": [
+    {"kind": "prefill", "M": 1024, "N": 4096, "K": 4096, "rows": [{"version": "v0_naive", "ms": 37.3575, "tflops": 0.920, "speedup": 1.000}, {"version": "v1_vectorized", "ms": 18.4822, "tflops": 1.859, "speedup": 2.021}, {"version": "v2_tiled", "ms": 6.7502, "tflops": 5.090, "speedup": 5.534}]},
+    {"kind": "prefill-small", "M": 128, "N": 4096, "K": 4096, "rows": [{"version": "v0_naive", "ms": 5.0473, "tflops": 0.851, "speedup": 1.000}, {"version": "v1_vectorized", "ms": 2.3889, "tflops": 1.798, "speedup": 2.113}, {"version": "v2_tiled", "ms": 0.9523, "tflops": 4.510, "speedup": 5.300}]},
+    {"kind": "square", "M": 2048, "N": 2048, "K": 2048, "rows": [{"version": "v0_naive", "ms": 18.4584, "tflops": 0.931, "speedup": 1.000}, {"version": "v1_vectorized", "ms": 9.0307, "tflops": 1.902, "speedup": 2.044}, {"version": "v2_tiled", "ms": 3.3709, "tflops": 5.097, "speedup": 5.476}]},
+    {"kind": "narrow (degenerate)", "M": 128, "N": 8, "K": 8192, "rows": [{"version": "v0_naive", "ms": 0.2939, "tflops": 0.057, "speedup": 1.000}, {"version": "v1_vectorized", "ms": 0.2067, "tflops": 0.081, "speedup": 1.422}, {"version": "v2_tiled", "ms": 0.5366, "tflops": 0.031, "speedup": 0.548}]},
+    {"kind": "decode", "M": 1, "N": 4096, "K": 4096, "rows": [], "gemv_ms": 0.0297},
+    {"kind": "decode-large", "M": 1, "N": 16384, "K": 4096, "rows": [], "gemv_ms": 0.5458}
+  ]
+}
