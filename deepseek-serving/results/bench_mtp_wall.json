@@ -1,0 +1,11 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "dtype": "bf16",
+  "n_draft": 6,
+  "gen_tokens": 64,
+  "mean_accepted_drafts": 0.823,
+  "target_total_s": 14.207,
+  "mtp_total_s": 18.194,
+  "walltime_speedup": 0.781,
+  "lossless_vs_generate": false
+}

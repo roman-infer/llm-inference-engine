@@ -1,0 +1,32 @@
+﻿{
+  "python": "3.13.14",
+  "torch": "2.13.0+cu126",
+  "cuda_built": "12.6",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "capability": "8.9",
+  "total_vram_GB": 8.59,
+  "bf16_supported": true,
+  "fp8_dtypes": {
+    "e4m3": true,
+    "e5m2": true
+  },
+  "triton": {
+    "available": false,
+    "version": null
+  },
+  "scaled_mm_per_tensor": {
+    "ok": true,
+    "shape": [
+      256,
+      256
+    ],
+    "dtype": "torch.float16"
+  },
+  "scaled_mm_blockwise": {
+    "ok": false,
+    "error": "RuntimeError('Rowwise scaling is not currently supported on your device')"
+  },
+  "cuda_graph": {
+    "ok": true
+  }
+}

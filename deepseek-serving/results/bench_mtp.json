@@ -1,0 +1,11 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_draft": 6,
+  "heldout_prompts": 8,
+  "gen_tokens": 64,
+  "mean_accepted_per_round": 0.798,
+  "mean_accepted_length": 1.798,
+  "accept_rate_vs_budget": 0.133,
+  "theoretical_target_forward_reduction": 0.556,
+  "lossless_greedy_match": false
+}

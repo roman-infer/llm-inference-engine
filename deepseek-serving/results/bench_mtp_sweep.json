@@ -1,0 +1,30 @@
+[
+  {
+    "N": 2,
+    "mean_accepted_drafts": 1.154,
+    "tokens_per_round": 2.154,
+    "walltime_speedup": 1.003,
+    "lossless_prompts": "4/8"
+  },
+  {
+    "N": 3,
+    "mean_accepted_drafts": 1.176,
+    "tokens_per_round": 2.176,
+    "walltime_speedup": 0.989,
+    "lossless_prompts": "4/8"
+  },
+  {
+    "N": 4,
+    "mean_accepted_drafts": 1.176,
+    "tokens_per_round": 2.176,
+    "walltime_speedup": 0.951,
+    "lossless_prompts": "4/8"
+  },
+  {
+    "N": 6,
+    "mean_accepted_drafts": 1.176,
+    "tokens_per_round": 2.176,
+    "walltime_speedup": 0.892,
+    "lossless_prompts": "4/8"
+  }
+]
